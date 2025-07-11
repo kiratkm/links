@@ -1,0 +1,39 @@
+/* Shared CSS styling for both HTML files */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fdf6e3;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  background-color: #ffcc70;
+  text-align: center;
+  padding: 1em;
+}
+
+nav {
+  text-align: center;
+  margin: 1em 0;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff6600; /* hover color */
+}
+
+a:visited {
+  color: #663399; /* visited color */
+}
+
+section {
+  padding: 1em;
+  max-width: 800px;
+  margin: auto;
+}

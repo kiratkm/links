@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="x-ua-compatible" content="ie=edge" />
+		<title>links1</title>
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="index.css?v=1752196240642"/>
+	
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        function updateReferences() {
+          // Define the old and new domains
+          const oldDomains = [
+              'app.codecraftworks.com/web',
+          ];
+          const newDomain = 'codecraftworks.dev/web';
+
+          // Update href attributes of all anchor tags
+          document.querySelectorAll('a[href]').forEach(anchor => {
+              oldDomains.forEach(oldDomain => {
+                  if (anchor.href.includes(oldDomain)) {
+                      anchor.href = anchor.href.replace(oldDomain, newDomain);
+                  }
+              });
+          });
+
+          // Update all innerHTML references
+          document.querySelectorAll('*').forEach(element => {
+              oldDomains.forEach(oldDomain => {
+                  if (element.innerHTML.includes(oldDomain)) {
+                      element.innerHTML = element.innerHTML.replaceAll(oldDomain, newDomain);
+                  }
+              });
+          });
+        };
+        updateReferences();
+      });
+    </script>
+
+    <script src="/elements.js">
+    </script>
+    
+	</head>
+	<body style="margin-bottom: 51px;">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Summer Bucket List</title>
+  <link rel="stylesheet" href="style.css">
+<body>
+  <header>
+    <h1 id="top">A Summer Guide to Fun!</h1>
+  </header>
+  
+  <nav>
+    <!-- Internal page links -->
+    <a href="#bucketlist" title="Jump to Bucket List">Bucket List</a> |
+    <a href="#hobbies" title="Jump to Summer Hobbies">Hobbies</a> |
+    <a href="https://codecraftworks.dev/web/k2POQvd9HTbEpg0H3AGo/?v=11" target="_blank" title="Go to Part 2">Part 2</a> |
+    <a href="#top" title="Back to Top">Top</a>
+  </nav>
+
+  <!-- Added spacers so it is easy to see -->
+	<div style="height: 400px;"></div>
+  
+  <section id="bucketlist">
+    <h2>Summer Bucket List</h2>
+    <p>Start here for some fun ideas: 
+      <a href="https://koa.com/blog/summer-bucket-list/" target="_blank" title="KOA Summer Bucket List">
+        KOA Summer Bucket List
+      </a>
+    </p>
+  </section>
+	<a href="#top" title="Back to Top">Top</a>
+  
+  <div style="height: 400px;"></div>
+
+  <section id="hobbies">
+    <h2>Try Something New</h2>
+    <p>Looking for a summer hobby? Visit 
+      <a href="https://camillestyles.com/wellness/15-fun-ideas-for-hobbies-to-try-this-summer/" 
+         title="Camille Styles Summer Hobbies" target="_blank">
+        this article
+      </a>.
+    </p>
+  </section>
+	<a href="#top" title="Back to Top">Top</a>
+   <div style="height: 400px;"></div>
+  <section>
+    <h2>Visit California</h2>
+    <p>Explore travel destinations: 
+      <a href="https://www.travelandleisure.com/places-to-visit-in-california-7372523" 
+         title="Travel & Leisure - California" target="_blank">
+        Places to Visit in California
+      </a>
+    </p>
+  </section>
+	
+  <section>
+    <h2>Contact</h2>
+    <p>
+      <a href="mailto:me@example.com?subject=Summer%20Fun%20Ideas" title="Email Me">
+        Email me 
+      </a>
+    </p>
+  </section>
+
+  <footer>
+    <p><a href="#top" title="Back to top">Back to top</a></p>
+  </footer>
+</body>
+
+  <codecraft-web-project-footer projectName="links1" projectId="wqgGCIRGgEObjdKNQbCS" urlBase="https://app.codecraftworks.com" displayName="Kirat" userName="kirat"></codecraft-web-project-footer>
+  
+		<script src="index.js?v=1752196240642"></script>
+	</body>
+</html>
